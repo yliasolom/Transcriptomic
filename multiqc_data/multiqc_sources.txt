@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+Kallisto	all_sections	SRR8118168	/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118168.kallisto.log
+Kallisto	all_sections	SRR8118167	/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118167.kallisto.log
+Kallisto	all_sections	SRR8118169	/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118169.kallisto.log
+Kallisto	all_sections	SRR8118170	/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118170.kallisto.log
+Kallisto	all_sections	SRR8118166	/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118166.kallisto.log
+Kallisto	all_sections	SRR8118171	/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118171.kallisto.log

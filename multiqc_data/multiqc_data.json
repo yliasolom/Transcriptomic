@@ -1,0 +1,231 @@
+{
+    "report_data_sources": {
+        "Kallisto": {
+            "all_sections": {
+                "SRR8118168": "/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118168.kallisto.log",
+                "SRR8118167": "/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118167.kallisto.log",
+                "SRR8118169": "/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118169.kallisto.log",
+                "SRR8118170": "/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118170.kallisto.log",
+                "SRR8118166": "/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118166.kallisto.log",
+                "SRR8118171": "/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data/SRR8118171.kallisto.log"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "SRR8118168": {
+                "total_reads": 29465139.0,
+                "pseudoaligned_reads": 27170813.0,
+                "not_pseudoaligned_reads": 2294326.0,
+                "percent_aligned": 92.21342210535643
+            },
+            "SRR8118167": {
+                "total_reads": 29958820.0,
+                "pseudoaligned_reads": 27422897.0,
+                "not_pseudoaligned_reads": 2535923.0,
+                "percent_aligned": 91.53530412746564
+            },
+            "SRR8118169": {
+                "total_reads": 31182477.0,
+                "pseudoaligned_reads": 29108059.0,
+                "not_pseudoaligned_reads": 2074418.0,
+                "percent_aligned": 93.34748807799971
+            },
+            "SRR8118170": {
+                "total_reads": 30730484.0,
+                "pseudoaligned_reads": 28464903.0,
+                "not_pseudoaligned_reads": 2265581.0,
+                "percent_aligned": 92.62757787999695
+            },
+            "SRR8118166": {
+                "total_reads": 31333797.0,
+                "pseudoaligned_reads": 29002698.0,
+                "not_pseudoaligned_reads": 2331099.0,
+                "percent_aligned": 92.5604324301967
+            },
+            "SRR8118171": {
+                "total_reads": 31477149.0,
+                "pseudoaligned_reads": 29278917.0,
+                "not_pseudoaligned_reads": 2198232.0,
+                "percent_aligned": 93.01641962555122
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "percent_aligned": {
+                "title": "% Aligned",
+                "description": "% processed reads that were pseudoaligned",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "YlGn",
+                "namespace": "Kallisto",
+                "rid": "mqc-generalstats-kallisto-percent_aligned",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "pseudoaligned_reads": {
+                "title": "M Aligned",
+                "description": "Pseudoaligned reads (millions)",
+                "min": 0,
+                "scale": "PuRd",
+                "modify": 1e-06,
+                "shared_key": "read_count",
+                "namespace": "Kallisto",
+                "rid": "mqc-generalstats-kallisto-pseudoaligned_reads",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "placement": 1000.0,
+                "dmax": 29.278917,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/home/iuliiasolomennikova/miniconda3/envs/multiQC/bin/multiqc .",
+    "report_plot_data": {
+        "kallisto_alignment": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "SRR8118166",
+                    "SRR8118167",
+                    "SRR8118168",
+                    "SRR8118169",
+                    "SRR8118170",
+                    "SRR8118171"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Pseudoaligned",
+                        "data": [
+                            29002698.0,
+                            27422897.0,
+                            27170813.0,
+                            29108059.0,
+                            28464903.0,
+                            29278917.0
+                        ],
+                        "color": "#437bb1"
+                    },
+                    {
+                        "name": "Not aligned",
+                        "data": [
+                            2331099.0,
+                            2535923.0,
+                            2294326.0,
+                            2074418.0,
+                            2265581.0,
+                            2198232.0
+                        ],
+                        "color": "#b1084c"
+                    }
+                ]
+            ],
+            "config": {
+                "id": "kallisto_alignment",
+                "title": "Kallisto: Alignment Scores",
+                "ylab": "# Reads",
+                "cpswitch_counts_label": "Number of Reads"
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_kallisto": {
+            "SRR8118168": {
+                "total_reads": 29465139.0,
+                "pseudoaligned_reads": 27170813.0,
+                "not_pseudoaligned_reads": 2294326.0,
+                "percent_aligned": 92.21342210535643
+            },
+            "SRR8118167": {
+                "total_reads": 29958820.0,
+                "pseudoaligned_reads": 27422897.0,
+                "not_pseudoaligned_reads": 2535923.0,
+                "percent_aligned": 91.53530412746564
+            },
+            "SRR8118169": {
+                "total_reads": 31182477.0,
+                "pseudoaligned_reads": 29108059.0,
+                "not_pseudoaligned_reads": 2074418.0,
+                "percent_aligned": 93.34748807799971
+            },
+            "SRR8118170": {
+                "total_reads": 30730484.0,
+                "pseudoaligned_reads": 28464903.0,
+                "not_pseudoaligned_reads": 2265581.0,
+                "percent_aligned": 92.62757787999695
+            },
+            "SRR8118166": {
+                "total_reads": 31333797.0,
+                "pseudoaligned_reads": 29002698.0,
+                "not_pseudoaligned_reads": 2331099.0,
+                "percent_aligned": 92.5604324301967
+            },
+            "SRR8118171": {
+                "total_reads": 31477149.0,
+                "pseudoaligned_reads": 29278917.0,
+                "not_pseudoaligned_reads": 2198232.0,
+                "percent_aligned": 93.01641962555122
+            }
+        },
+        "multiqc_general_stats": {
+            "SRR8118168": {
+                "Kallisto_mqc-generalstats-kallisto-percent_aligned": 92.21342210535643,
+                "Kallisto_mqc-generalstats-kallisto-pseudoaligned_reads": 27170813.0
+            },
+            "SRR8118167": {
+                "Kallisto_mqc-generalstats-kallisto-percent_aligned": 91.53530412746564,
+                "Kallisto_mqc-generalstats-kallisto-pseudoaligned_reads": 27422897.0
+            },
+            "SRR8118169": {
+                "Kallisto_mqc-generalstats-kallisto-percent_aligned": 93.34748807799971,
+                "Kallisto_mqc-generalstats-kallisto-pseudoaligned_reads": 29108059.0
+            },
+            "SRR8118170": {
+                "Kallisto_mqc-generalstats-kallisto-percent_aligned": 92.62757787999695,
+                "Kallisto_mqc-generalstats-kallisto-pseudoaligned_reads": 28464903.0
+            },
+            "SRR8118166": {
+                "Kallisto_mqc-generalstats-kallisto-percent_aligned": 92.5604324301967,
+                "Kallisto_mqc-generalstats-kallisto-pseudoaligned_reads": 29002698.0
+            },
+            "SRR8118171": {
+                "Kallisto_mqc-generalstats-kallisto-percent_aligned": 93.01641962555122,
+                "Kallisto_mqc-generalstats-kallisto-pseudoaligned_reads": 29278917.0
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/home/iuliiasolomennikova/Desktop/trans_practice/HW2_trans/sra_data"
+    ],
+    "config_analysis_dir": [
+        "."
+    ],
+    "config_creation_date": "2022-10-19, 09:20 UTC",
+    "config_git_hash": "3e4e2ff637b50f9f75c7ad2ca3b9d75c3f51564a",
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/home/iuliiasolomennikova/miniconda3/envs/multiQC/lib/python3.10/site-packages/multiqc/utils",
+    "config_short_version": "1.13",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.13 (3e4e2ff)"
+}
